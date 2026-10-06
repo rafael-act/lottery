@@ -1,0 +1,47 @@
+{
+  "lotofacil": {
+    "nome": "Lotofácil",
+    "apiSlug": "lotofacil",
+    "icone": "mdi-clover",
+    "dezenaMin": 1,
+    "dezenaMax": 25,
+    "qtdSorteadas": 15,
+    "apostaMin": 15,
+    "apostaMax": 20,
+    "faixas": [
+      { "faixa": 1, "nome": "1º prêmio", "acertos": 15 },
+      { "faixa": 2, "nome": "2º prêmio", "acertos": 14 },
+      { "faixa": 3, "nome": "3º prêmio", "acertos": 13 }
+    ]
+  },
+  "quina": {
+    "nome": "Quina",
+    "apiSlug": "quina",
+    "icone": "mdi-numeric-5-circle",
+    "dezenaMin": 1,
+    "dezenaMax": 80,
+    "qtdSorteadas": 5,
+    "apostaMin": 5,
+    "apostaMax": 15,
+    "faixas": [
+      { "faixa": 1, "nome": "1º prêmio", "acertos": 5 },
+      { "faixa": 2, "nome": "2º prêmio", "acertos": 4 },
+      { "faixa": 3, "nome": "3º prêmio", "acertos": 3 }
+    ]
+  },
+  "megasena": {
+    "nome": "Mega-Sena",
+    "apiSlug": "megasena",
+    "icone": "mdi-star-four-points",
+    "dezenaMin": 1,
+    "dezenaMax": 60,
+    "qtdSorteadas": 6,
+    "apostaMin": 6,
+    "apostaMax": 20,
+    "faixas": [
+      { "faixa": 1, "nome": "1º prêmio", "acertos": 6 },
+      { "faixa": 2, "nome": "2º prêmio", "acertos": 5 },
+      { "faixa": 3, "nome": "3º prêmio", "acertos": 4 }
+    ]
+  }
+}

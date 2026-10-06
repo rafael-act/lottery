@@ -1,0 +1,21 @@
+{
+  "name": "loterias-estatistica",
+  "version": "1.0.0",
+  "description": "Análise estatística (média, moda, mediana) dos resultados da Lotofácil, Quina e Mega-Sena com sugestão de jogos",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node --no-warnings=ExperimentalWarning src/server.js",
+    "dev": "node --no-warnings=ExperimentalWarning --watch src/server.js",
+    "db:init": "node --no-warnings=ExperimentalWarning scripts/init-db.js",
+    "db:import": "node --no-warnings=ExperimentalWarning scripts/import-results.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "pg": "^8.13.0"
+  }
+}
